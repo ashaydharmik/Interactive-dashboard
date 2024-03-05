@@ -1,0 +1,77 @@
+@import "../../css-config/mixins.scss";
+
+
+.folder-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 64%;
+    .box1{
+        width: 100%;
+        .folders,.folder-box{
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 10px;
+            align-items: center;
+
+            p{
+          
+                font-size: 12px;
+                font-weight: bold;
+                svg{
+                    position: relative;
+                    top: 3px;
+                    margin-right: 5px;
+                    cursor: pointer;
+                }
+            }
+        
+        }
+        .dropdowns ul li{
+            
+            margin-left: 25px;
+            list-style-type: none;
+            padding-bottom: 5px;
+            font-size: 12px;
+            font-weight: 500;
+            // &:hover{
+            //     background-color: rgb(230, 230, 230);
+            // }
+            svg{
+                position: relative;
+                top: 3px;
+                margin-right: 5px;
+               
+            }
+        }
+
+    }
+    .box2{
+        // width: 20%;
+        position: absolute;
+        bottom: 10px;
+        .bottom-menu{
+            p{
+                font-size: 12px;
+                padding: 5px;
+                font-weight: bold;
+                svg{
+                    position: relative;
+                    top: 3px;
+                    margin-right: 5px;
+                    font-size: 15px;
+                }
+                span{
+                    background-color: black;
+                    color: white;
+                    padding: 5px 5px;
+                    border-radius: 5px;
+                    margin-left: 35px;
+                }
+
+            }
+        }
+
+    }
+}

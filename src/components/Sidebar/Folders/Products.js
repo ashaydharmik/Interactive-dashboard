@@ -24,7 +24,7 @@ const Products = () => {
           </div>
           <div
             className="folder-box"
-            style={{ background: " rgb(230, 230, 230)" }}
+          
           >
             <p>
               <span>

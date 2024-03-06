@@ -30,13 +30,11 @@ const Teams = () => {
           <p className="unit">x+3</p>
         </div>
         <div>
-          <p style={{color:'grey'}}>
+          <p style={{ color: "grey" }}>
             <CiSquarePlus />
             Create a team
           </p>
-       
         </div>
-        
       </div>
     </>
   );

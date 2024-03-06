@@ -1,97 +1,94 @@
 @import "../css-config/mixins.scss";
 
-
-.table-container{
-    height: 59vh;
-    overflow-y: auto;
-    @include md{
-// width: 80%;
-width: 100%;
-height: fit-content;
-overflow-x: auto;
-    }
-    table{
-        width: 100%;
-        border: 1px solid black;
-        border-collapse: collapse;
-thead{
-    th{
+.table-container {
+  height: 59vh;
+  overflow-y: auto;
+  @include md {
+    // width: 80%;
+    width: 100%;
+    height: fit-content;
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    thead {
+      th {
         border: 1px solid black;
         padding: 2px;
-    font-size: 12px;
-        @include md{
-            padding: 5px;
-            font-size: 14px;
-
+        font-size: 12px;
+        @include md {
+          padding: 5px;
+          font-size: 14px;
         }
-        input{
-            margin-right: 5px;
-            accent-color: black;
-            cursor: pointer;
+        input {
+          margin-right: 5px;
+          accent-color: black;
+          cursor: pointer;
         }
-        svg{
-            cursor: pointer;
+        svg {
+          cursor: pointer;
         }
-    }
-    #brand{
+      }
+      #brand {
         display: flex;
         justify-content: space-between;
         align-items: center;
         // width: 60px;
         border: none;
         margin-top: 8px;
-        @include md{
-            margin-top: 0px;
+        @include md {
+          margin-top: 0px;
         }
-        span{
-            position: relative;
-            top: 3px;
+        span {
+          position: relative;
+          top: 3px;
         }
+      }
     }
-}
-tbody{
-    tr{
+    tbody {
+      tr {
         font-size: 14px;
-        input{
-            margin-right: 5px;
-            accent-color: black;
-            cursor: pointer;
+        input {
+          margin-right: 5px;
+          accent-color: black;
+          cursor: pointer;
         }
-        td{
-
-            border: 1px solid black;
-            padding: 5px;
+        td {
+          border: 1px solid black;
+          padding: 5px;
         }
-        #categories span{
-            border: 1px solid blue;
-            color: blue;
-            border-radius: 5px;
-            padding: 0 5px;
+        #categories span {
+          border: 1px solid blue;
+          color: blue;
+          border-radius: 5px;
+          padding: 0 5px;
         }
-        #tags span{
-            border: 1px solid grey;
-            color: grey;
-            border-radius: 5px;
-            padding: 0 5px;
+        #tags span {
+          border: 1px solid grey;
+          color: grey;
+          border-radius: 5px;
+          padding: 0 5px;
         }
-        #meeting span{
-            border: 1px solid green;
-            color: green;
-            border-radius: 5px;
-            padding: 0 5px;
+        #meeting span {
+          border: 1px solid green;
+          color: green;
+          border-radius: 5px;
+          padding: 0 5px;
         }
-    }
-    #last td{
+      }
+      #last td {
         cursor: pointer;
         text-align: right;
         font-size: 12px;
         color: rgb(72, 72, 72);
         font-weight: 500;
-        svg{
-            position: relative;
-            top: 3px;
+        svg {
+          position: relative;
+          top: 3px;
         }
+      }
     }
-}
-    }
+  }
 }

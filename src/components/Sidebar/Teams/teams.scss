@@ -1,38 +1,37 @@
 @import "../../css-config/mixins.scss";
 
-.teams-container{
-    // width: 100%;
-    div{
-        padding: 5px 10px;
+.teams-container {
+  // width: 100%;
+  div {
+    padding: 5px 10px;
 
-        display: flex;
-        justify-content:space-between;
-        align-items: center;
-        // flex-direction: column;
-        p{
-            font-size: 12px;
-            padding-bottom: 5px;
-            font-weight: bold;
-            svg{
-                // margin-top: 5px;
-                margin-right: 5px;
-                font-weight: bold;
-                font-size: 15px;
-                position: relative;
-                    top: 3px;
-            }
-            
-        }
-        .unit{
-            border: 1px solid black;
-            border-radius: 5px;
-            padding: 0px 5px;
-            position: relative;
-            top: 3px;
-        }
-        &:hover{
-            background-color: rgb(230, 230, 230);
-            // padding: 5px;
-        }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // flex-direction: column;
+    p {
+      font-size: 12px;
+      padding-bottom: 5px;
+      font-weight: bold;
+      svg {
+        // margin-top: 5px;
+        margin-right: 5px;
+        font-weight: bold;
+        font-size: 15px;
+        position: relative;
+        top: 3px;
+      }
     }
+    .unit {
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 0px 5px;
+      position: relative;
+      top: 3px;
+    }
+    &:hover {
+      background-color: rgb(230, 230, 230);
+      // padding: 5px;
+    }
+  }
 }
